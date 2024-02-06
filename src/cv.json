@@ -1,0 +1,232 @@
+{
+    "basics": {
+      "name": "Ramón Ojeda",
+      "label": "Full Stack Developer con más de 5 años de experiencia en programación.",
+      "image": "/public/Screenshot.png",
+      "email": "reofdev1922@gmail.com",
+      "phone": "+(58) 04124228727",
+      "url": "https://johndoe.com",
+      "summary": "Desarrollador web Full-Stack con más de 5 años de experiencia, apasionado por crear aplicaciones web escalables y seguras. Poseo un amplio dominio en tecnologías como Java, PHP, JavaScript, Python, Spring, Laravel, Express.js, Django, Vue.js, Quasar, React, Astro, Firebase, SNS, SES, RDS de AWS y HubSpot. Acostumbrado a trabajar bajo la metodología SCRUM y con control de versiones mediante Git. Tengo un historial de éxito en la entrega de proyectos a tiempo y dentro del presupuesto. Busco un nuevo desafío donde pueda aportar mis habilidades y experiencia al éxito de un equipo.",
+      "location": {
+        "address": "",
+        "postalCode": "*",
+        "city": "Lecheria",
+        "countryCode": "VE",
+        "region": "Venezuela"
+      },
+      "profiles": [
+        {
+            "network": "Linkedin",
+            "username": "Ramón Ojeda",
+            "url": "https://www.linkedin.com/in/ram%C3%B3nojeda/"
+        },
+        {
+            "network": "GitHub",
+            "username": "reof07",
+            "url": "https://github.com/Reof07"
+        }
+    ]
+    },
+    "work": [
+      {
+      "name": "QbitsDev",
+      "position": "Full Stack Developer",
+      "url": "https://company.com",
+      "startDate": "2023-10-15",
+      "endDate": null,
+      "summary": "Desarrollador Full Stack, en un proyecto ERP para una empresa encargada de gestionar solicitudes de guias de movilizacion para transporte pesados. cree los endpoit de la API en laravel, asi como notificaciones en tiempo real entre otras caracteristicas.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+      {
+      "name": "LanIntelligence",
+      "position": "Full Stack Developer",
+      "url": "https://company.com",
+      "startDate": "2023-04-15",
+      "endDate": "2023-10-30",
+      "summary": "Desarrollador Full Stack, en un proyecto ERP para una empresa encargada de gestionar solicitudes de guias de movilizacion para transporte pesados. cree los endpoit de la API en laravel, asi como notificaciones en tiempo real entre otras caracteristicas.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+      {
+      "name": "Karanta C.A",
+      "position": "Backend Developer",
+      "url": "https://company.com",
+      "startDate": "2018-04-15",
+      "endDate": "2022-06-30",
+      "summary": "Desarrollador Backend con Java y PHP, en el desarrollo de microservicios para un software de gestión de producción petrolera y en el desarrollo de un sitema para gestionar inventario en almacenes en supermetanol C.A respectivamente ",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "PHP",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Python",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "Laravel",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Quasar",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "Vue.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+  ],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }

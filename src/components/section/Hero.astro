@@ -1,0 +1,140 @@
+---
+import { basics } from "../../cv.json"
+import Section from "@/components/section/Section.astro"
+import Mail from "../../icons/Mail.astro"
+import Phone from "../../icons/Phone.astro"
+import GitHub from "../../icons/GitHub.astro"
+import Linkedin from "@/icons/Linkedin.astro"
+import WorldMap from "@/icons/WorldMap.astro"
+
+const { name, label, email, phone, profiles, location, image } = basics
+const { city, region } = location
+
+const SOCIAL_ICONS : Record<string,any> = {
+    GitHub,
+    Linkedin
+}
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+            <span>
+                <WorldMap />
+                {city}, {region}
+            </span>
+            <footer>
+                {
+                    email && (
+                        <a 
+                            href={`mailto:${email}`}
+                            title={`Enviar un correo electrónico a ${name} al correo ${email}`}    
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a 
+                            href={`tel:${phone}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}`}    
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({network, url, username}) => {
+                        const Icon = SOCIAL_ICONS[network]
+
+                        return (
+                            <a
+                                href={url}
+                                title={`Visitar el perfil de ${username} en ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                            <Icon />
+                            </a>
+                        )
+                    })
+                }
+            </footer>
+            
+        </div>
+        <figure class="img">
+            <img src={image} alt="">
+        </figure>
+    </div>
+</Section>
+
+<style>
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    gap: 1rem;
+}
+h1{
+    font-size:2rem ;
+}
+h2{
+    font-weight: 500;
+    color: #444;
+    font-size: 1.1rem ;
+    text-wrap: balance;
+}
+
+img{
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 6px;
+}
+
+span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+}
+
+footer {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all .3s ease;
+}
+
+footer a:hover {
+    background: #eee;
+}
+
+.info {
+    padding: 1px;
+}
+
+</style>
