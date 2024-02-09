@@ -25,7 +25,10 @@ const SOCIAL_ICONS : Record<string,any> = {
                 <WorldMap />
                 {city}, {region}
             </span>
-            <footer>
+            <div class="print">
+               <span> {email} &bull; {phone} </span>
+            </div>
+            <footer class="no-print">
                 {
                     email && (
                         <a 
@@ -135,6 +138,18 @@ footer a:hover {
 
 .info {
     padding: 1px;
+}
+
+@media print {
+    .print {
+        display: block;
+        margin-top: 5px;
+    }
+}
+@media print {
+    .no-print {
+        display: none;
+    }
 }
 
 </style>
